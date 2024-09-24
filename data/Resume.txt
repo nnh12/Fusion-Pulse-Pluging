@@ -1,0 +1,107 @@
+TAYLOR FOSTER
+Software Engineer
+
+name.surname@gmail.com
+212-312-7001
+github.io/name-surname
+Austin, TX
+
+Summary
+======
+Passionate Software Engineer with 10+ years of experience in developing web applications and backend systems. Skilled at writing clear, concise code that is easy to maintain and troubleshoot. Experienced in working with both small and large teams across multiple projects and companies. Able to work independently of remote locations or in office environments as needed by the company.
+
+
+PROFESSIONAL EXPERIENCE
+======
+Lead Software Engineer
+Blackbaud
+2021 - Ongoing
+Austin, TX
+ - Successfully converted whole project from python 2 to 3.8.0
+ - Scripted unique test plans, test scripts and processes to remove previously known redundancy by 40% and ensured predictable outcomes
+ - Developed a desktop application to automate database testing process, improved efficiency by 65%
+ - Automated process to create usage graphs, saving $500,000 / year & increasing accuracy
+
+Senior Software Engineer
+Wayfair
+2017 - 2021
+Austin, TX
+ - Moved the automation solution into a commercial software ($60k/year)
+ - Designed and developed reusable software components which used in 3 different project with reducing development effort by 50%
+ - Re-engineered critical modules within a sprint to rely on a centralized library to optimize performance by 68%
+ - Rated with the best annual performance rating for all the years during my stint; given to top ~5% employees
+
+Software Developer
+Target
+2015 - 2017
+Austin, TX
+ - Helped to increase the accuracy of the reporting systems by 4%
+ - Delivered configuration management tools to track server settings for performance testing which saved 25% of initial machine setup
+ - Developed monitor reports that are using in-memory cache, updating the data shown to the user every 1 second
+ - Optimized customer resources and reduce turnaround time by 20%
+ - Performed root cause analysis for more than 10 issues to identify bugs and rolled out fixes to production within 24 hours
+
+Junior Software Engineer
+Redfin
+2013 - 2015
+Austin, TX
+ - Fueled additional revenue stream through responsive customer support, generating $18k in new license sales within first three weeks of new release
+ - Improved user interfaces by updating menus to be more intuitive, increasing sales by 5%
+ - Reduced the time by 75% to process 70,000 to 1, 00,000 instruments from 16+ seconds to less than 4 seconds by redesigning the algorithm
+ - Wrote optimized scripts for ​data-heavy & processing heavy task automation
+ - Spearheaded the revamp of tech stack which resulted in 40% decrease in server costs
+
+
+Education
+======
+Executive MBA, Engineering Management
+The University of Arizona
+2010 - 2011
+Tucson, AZ
+
+Bachelor of Science, Computer Science
+North Carolina Wesleyan College
+2006 - 2009
+Rocky Mount, NC
+
+
+Achievements
+======
+Spearheaded a $12M software project
+from design to distribution as a senior software engineer in a 12-people team
+
+30% improved query efficiency
+by designing and fully revising the two largest MySQL databases
+
+Coordinated a year-long release of a six-part platform project
+with marketing, BA, QA, and sales department.
+
+Chatbot implementation
+Developed a chatbot which helped customer to reduce costs by 240% in their customer service department
+
+
+SKILLS
+======
+Tools
+ - Java
+ - C++
+ - Python
+ - Perl
+ - mySQL
+ - ASP.NET
+
+Operating Systems
+ - Unix
+ -  Solaris
+ - Linux
+ -  Windows
+
+
+Strengths
+======
+Gold Medalist
+Was awarded a gold medal for 5 years of consecutive excellence in academics (2005-2010)
+
+Corporate Social Responsibility
+Volunteered in the CSR team for Amadeus, organized tuition platforms for the underprivileged. Designed confluence page for book drives, etc. 
+
