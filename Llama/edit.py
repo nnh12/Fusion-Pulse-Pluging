@@ -40,6 +40,7 @@ job_description = (
     "with experience in building responsive web applications and collaborating with UX/UI teams."
 )
 
-result = tailor_resume(responsibilities, job_description)
-print(result['response'])
+if __name__ == "__main__":
+    result = tailor_resume(responsibilities, job_description)
+    print(result['response'])
 
