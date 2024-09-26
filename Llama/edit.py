@@ -7,7 +7,7 @@ def tailor_resume(responsibilities, job_description, model="llama3"):
 
     # Craft the prompt for tailoring the resume responsibilities
     prompt = (
-        "Modify the following text to modify with the job description:\n\n"
+        "Modify the following current responsbility to tailr to job description:\n\n"
         f"Job Description: '{job_description}'\n\n"
         f"Current Responsibilities:\n{responsibilities}\n\n"
         "Tailored Responsibilities:"
@@ -30,12 +30,24 @@ def tailor_resume(responsibilities, job_description, model="llama3"):
 
 # Example usage for a Frontend Engineer position
 responsibilities = (
-    
+   """ 6-10 years of experience in Financial Services preferred
+ Global Project Management experience preferred
+ Ability to work under pressure and manage deadlines or unexpected changes in expectations or requirements
+ Proven organizational and time management skills""" 
 )
 
 job_description = (
-    "We are seeking a Frontend Engineer skilled in modern JavaScript frameworks, "
-    "with experience in building responsive web applications and collaborating with UX/UI teams."
+    """A finance professional, I am deeply passionate about understanding
+macro as well as the micro aspects affecting corporate finances.
+I have engaged in providing equity fund raising, debt syndication,
+M&A and investor relations services to 50+ companies across
+sectors including Healthcare, Life Sciences, Energy, Industrials,
+Consumer and Technology.
+My 6+ years of experience across Investor Relations, Investment
+Banking and Corporate Finance Advisory helped me develop
+competencies including business storytelling, which is my key
+professional interest area, and problem-solving, which energizes me
+emotionally."""
 )
 
 if __name__ == "__main__":
