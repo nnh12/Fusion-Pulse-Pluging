@@ -2,7 +2,7 @@ import requests
 import json
 import pandas as pd
 
-def tailor_resume(responsibilities, job_description, model="llama3.2"):
+def tailor_resume(responsibilities, job_description, model="llama3"):
     url = 'http://localhost:11434/api/generate'
     headers = {'Content-Type': 'application/json'}
 
@@ -60,6 +60,6 @@ if __name__ == "__main__":
         result = tailor_resume(resume, job_description)
         res.append(result['response'])
 
-    df['Output'] = pd.Series(words).astype(str)
+    df['Output'] = pd.Series(res).astype(str)
     df.to_excel('Fusion_test_log.xlsx', index=False)
     print(df['Output'])
