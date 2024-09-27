@@ -1,15 +1,15 @@
 import requests
 import json
 
-def tailor_resume(responsibilities, job_description, model="llama3"):
+def tailor_resume(responsibilities, job_description, model="llama3.2"):
     url = 'http://localhost:11434/api/generate'
     headers = {'Content-Type': 'application/json'}
 
     # Craft the prompt for tailoring the resume responsibilities
     prompt = (
-        "Modify the following current responsbility to tailr to job description:\n\n"
+        "Modify the following text to tailr to job description:\n\n"
         f"Job Description: '{job_description}'\n\n"
-        f"Current Responsibilities:\n{responsibilities}\n\n"
+        f"Text:\n{responsibilities}\n\n"
         "Tailored Responsibilities:"
     )
 
@@ -36,7 +36,7 @@ responsibilities = (
  Proven organizational and time management skills""" 
 )
 
-job_description = (
+resume = (
     """A finance professional, I am deeply passionate about understanding
 macro as well as the micro aspects affecting corporate finances.
 I have engaged in providing equity fund raising, debt syndication,
@@ -51,6 +51,6 @@ emotionally."""
 )
 
 if __name__ == "__main__":
-    result = tailor_resume(responsibilities, job_description)
+    result = tailor_resume(responsibilities, resume)
     print(result['response'])
 
