@@ -7,7 +7,7 @@ def tailor_resume(responsibilities, job_description, model="llama3.2"):
 
     # Craft the prompt for tailoring the resume responsibilities
     prompt = (
-        "Modify the following text to tailr to job description:\n\n"
+        "Modify the following text to tailor to job description:\n\n"
         f"Job Description: '{job_description}'\n\n"
         f"Text:\n{responsibilities}\n\n"
         "Tailored Responsibilities:"
