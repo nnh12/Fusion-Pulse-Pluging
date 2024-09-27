@@ -1,5 +1,6 @@
 import requests
 import json
+import pandas as pd
 
 def tailor_resume(responsibilities, job_description, model="llama3.2"):
     url = 'http://localhost:11434/api/generate'
@@ -29,7 +30,7 @@ def tailor_resume(responsibilities, job_description, model="llama3.2"):
         return None
 
 # Example usage for a Frontend Engineer position
-responsibilities = (
+job = (
    """ 6-10 years of experience in Financial Services preferred
  Global Project Management experience preferred
  Ability to work under pressure and manage deadlines or unexpected changes in expectations or requirements
@@ -51,6 +52,14 @@ emotionally."""
 )
 
 if __name__ == "__main__":
-    result = tailor_resume(responsibilities, resume)
-    print(result['response'])
+    df = pd.read_excel('Fusion_test_log.xlsx')
+    res = []
+    for index, row in df.iterrows():
+        job_description = row['Job Description']
+        resume = row['Resume']
+        result = tailor_resume(resume, job_description)
+        res.append(result['response'])
 
+     df['Output'] = pd.Series(words).astype(str)
+     df.to_excel('Fusion_test_log.xlsx', index=False)
+     print(df['Output'])
