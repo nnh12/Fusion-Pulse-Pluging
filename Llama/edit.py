@@ -60,6 +60,6 @@ if __name__ == "__main__":
         result = tailor_resume(resume, job_description)
         res.append(result['response'])
 
-     df['Output'] = pd.Series(words).astype(str)
-     df.to_excel('Fusion_test_log.xlsx', index=False)
-     print(df['Output'])
+    df['Output'] = pd.Series(words).astype(str)
+    df.to_excel('Fusion_test_log.xlsx', index=False)
+    print(df['Output'])
