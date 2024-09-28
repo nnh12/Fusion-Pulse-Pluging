@@ -52,4 +52,4 @@ emotionally."""
 )
 
 if __name__ == "__main__":
-    result = tailor_resume(resume, job) 
+    result = tailor_resume(resume, job)
