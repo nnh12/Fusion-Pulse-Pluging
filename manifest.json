@@ -1,0 +1,10 @@
+{
+  "name": "GFX Fusion Plugin",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup/hello.html",
+    "default_icon": "images/hello_extensions.png"
+  }
+}
