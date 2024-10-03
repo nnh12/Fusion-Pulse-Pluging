@@ -1,31 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import DocViewer, { DocViewerRenderers } from "react-doc-viewer";
+import React from 'react';
+import DocViewer from 'react-doc-viewer';
 
-function App() {
-  
-const docs = [
-    { uri: require("./test-doc.docx") }
+const DocumentEmbed = () => {
+  const documents = [
+    {
+      uri: './Juan.docx', // The path to your Word document
+      fileType: 'docx',
+    },
   ];
-  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <DocViewer documents={documents} />
     </div>
   );
-}
+};
 
-export default App;
+export default DocumentEmbed;
+
