@@ -13,6 +13,7 @@ const App = () => {
         path: '/webviewer/lib',
         initialDoc: '/files/Juan.docx',
         licenseKey: 'demo:1727928556906:7e326a5103000000003e0055e05d12e18ed76e035ba1cc3869cd043367',  // sign up to get a free trial key at https://dev.apryse.com
+        enableOfficeEditing: true,	
       },
       viewer.current,
     ).then((instance) => {
