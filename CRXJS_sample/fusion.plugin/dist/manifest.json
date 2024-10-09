@@ -6,7 +6,7 @@
     "default_popup": "index.html"
   },
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'; connect-src *; default-src 'self' http://* https://*"
+    "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline'; connect-src *; default-src 'self' http://* https://*"
   },
   "web_accessible_resources": [
     {
@@ -15,6 +15,7 @@
       ],
       "resources": [
         "files/*",
+        "files/Juan.docx",
         "webviewer/lib/*"
       ],
       "use_dynamic_url": false

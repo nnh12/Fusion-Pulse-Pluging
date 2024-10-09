@@ -8,7 +8,7 @@ const WordViewer = () => {
     WebViewer(
       {
         path: '/webviewer/lib', // Path to the WebViewer library files
-        initialDoc: '/files/Juan.docx', // Initial Word document to load
+        initialDoc: chrome.runtime.getURL('files/Juan.docx'), // Initial Word document to load
         enableOfficeEditing: true, // Enable Office document editing
       },
       viewer.current, // The container where WebViewer will be mounted
