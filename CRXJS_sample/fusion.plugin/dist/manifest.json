@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "CRXJS React Vite Example",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src *; default-src 'self' http://* https://*"
+  },
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "files/*",
+        "webviewer/lib/*"
+      ],
+      "use_dynamic_url": false
+    }
+  ]
+}
