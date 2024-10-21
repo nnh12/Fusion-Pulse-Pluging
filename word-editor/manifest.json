@@ -1,7 +1,7 @@
 {
   "version": "0.1.4",
   "manifest_version": 3,
-  "name": "Word Editor",
+  "name": "Revison.cV",
   "offline_enabled": true,
   "homepage_url": "https://mybrowseraddon.com/word-editor.html",
   "description": "A free & easy-to-use word editor extension for your browser.",
@@ -17,7 +17,7 @@
     "contextMenus"
   ],
   "action": {
-    "default_title": "Word Editor",
+    "default_title": "Revision.cV",
     "default_icon": {
       "16": "data/icons/16.png",
       "32": "data/icons/32.png",
